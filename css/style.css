@@ -3,9 +3,270 @@
           box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1278px;
+  width: 97%;
+  margin: auto;
+}
+
+.input, .button {
+  font-size: 0.95rem;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.input:focus, .button:focus {
+  outline: none;
+}
+
+.input {
+  outline: none;
+}
+
+.input::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+.input:-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+.input::-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+.input::placeholder {
+  color: #bfbfbf;
+}
+
+.button {
+  background-color: #3065f8;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:active {
+  border: 2px solid #070439;
+}
+
+.body__header {
+  padding: 65px 0;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__item {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  margin-left: 3.3rem;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.nav__item::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #3c9f8f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav__item:hover {
+  color: #3c9f8f;
+}
+
+.nav__item:hover::after {
+  width: 100%;
+}
+
+.main__hero {
+  padding: 65px 0 275px 0;
+}
+
+.hero {
+  background: url("../images/bg-curve-desktop.svg") no-repeat bottom/contain;
+}
+
+.hero__title {
+  margin-bottom: 0;
+}
+
+.hero__image {
+  max-width: 50%;
+  margin-top: -2.5rem;
+}
+
+.hero__text {
+  font-size: 1.12rem;
+  max-width: 91%;
+}
+
+.content-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrap {
+  -ms-flex-preferred-size: 49%;
+      flex-basis: 49%;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  line-height: 3.8rem;
+  font-size: 2.5rem;
+}
+
+.form {
+  font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__input {
+  -ms-flex-preferred-size: 51%;
+      flex-basis: 51%;
+  margin-right: 15px;
+}
+
+.form__button {
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
+}
+
+.main__benefits {
+  padding: 25px 0 107px 0;
+}
+
+.benefits {
+  background-color: #f6f6fe;
+}
+
+.benefits__content-wrap {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefits__wrap {
+  -ms-flex-preferred-size: 52%;
+      flex-basis: 52%;
+}
+
+.benefits__image {
+  max-width: 100%;
+}
+
+.benefits__text {
+  max-width: 79%;
+}
+
+.benefits__details {
+  display: inline-block;
+  margin: 5px 0 45px 0;
+}
+
+.img-wrap {
+  -ms-flex-preferred-size: 42%;
+      flex-basis: 42%;
+}
+
+.details {
+  color: #3c9f8f;
+  font-size: 1.02rem;
+  text-decoration: none;
+  border-bottom: 1px solid #3c9f8f;
+  padding-bottom: 3px;
+}
+
+.arrow {
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.review {
+  max-width: 53%;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 30px 5px #bfbfbf;
+          box-shadow: 1px 1px 30px 5px #bfbfbf;
+  padding: 25px 30px;
+}
+
+.review__quotes {
+  width: 15px;
+  height: 16px;
+}
+
+.review__testimonial {
+  margin-top: 3px;
+}
+
+.testimonial {
+  font-size: 0.85rem;
+  line-height: 23px;
+}
+
+.client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.client__photo {
+  margin-right: 10px;
+}
+
+.photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.position {
+  font-size: 0.55rem;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

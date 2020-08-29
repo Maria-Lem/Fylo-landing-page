@@ -1,0 +1,25 @@
+.body
+  &__header
+    padding: 65px 0
+.menu
+  display: flex
+  align-items: center
+  justify-content: space-between
+.nav
+  &__item
+    display: inline-block
+    font-family: $font
+    text-decoration: none
+    margin-left: 3.3rem
+    transition: color 0.2s
+    &::after
+      content: ''
+      display: block
+      width: 0%
+      height: 2px
+      background-color: $cyan
+      transition: 0.3s
+    &:hover
+      color: $cyan
+      &::after
+        width: 100%
