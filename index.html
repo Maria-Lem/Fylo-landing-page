@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  
+
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
   <header class="header body__header">
     <div class="container">
@@ -32,14 +30,15 @@
     </div>
   </header>
   <!-- /.header -->
-  
+
   <div class="main">
     <section class="hero main__hero">
       <div class="container">
         <div class="content-wrap">
           <div class="wrap">
             <h1 class="title hero__title">All your files in one secure location, accessible anywhere.</h1>
-            <p class="text hero__text">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+            <p class="text hero__text">Fylo stores your most important files in one secure location. Access them
+              wherever you need, share and collaborate with friends, family, and co-workers.</p>
             <form action="#" class="form hero__form">
               <input type="email" class="input form__input" placeholder="Enter your email...">
               <input type="submit" value="Get Started" class="button form__button">
@@ -55,12 +54,16 @@
         <div class="content-wrap benefits__content-wrap">
           <div class="benefits__wrap">
             <h1 class="title benefits__title">Stay productive, wherever you are</h1>
-            <p class="text benefits__text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-            <p class="text benefits__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
-            <a href="#" class="details benefits__details">See how Fylo works<img src="images/icon-arrow.svg" alt="" class="arrow"></a>
+            <p class="text benefits__text">Never let location be an issue when accessing your files. Fylo has you
+              covered for all of your file storage needs.</p>
+            <p class="text benefits__text">Securely share files and folders with friends, family and colleagues for live
+              collaboration. No email attachments required!</p>
+            <a href="#" class="details benefits__details">See how Fylo works<img src="images/icon-arrow.svg" alt=""
+                class="arrow"></a>
             <div class="review benefits__review">
               <img src="images/icon-quotes.svg" alt="" class="review__quotes">
-              <p class="testimonial review__testimonial">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+              <p class="testimonial review__testimonial">Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
               <div class="client review__client">
                 <img src="images/avatar-testimonial.jpg" alt="avatar" class="photo client__photo">
                 <div class="client__info">
@@ -75,34 +78,72 @@
       </div>
     </section>
     <!-- /.benefits main__benefits -->
+    <section class="subscription main__subscription">
+      <div class="container">
+        <div class="content-wrap subscription__content-wrap">
+          <div class="wrap">
+            <h2 class="title subscription__title">Get early access today</h2>
+            <p class="text subscription__text">It only takes a minute to sign up and our free starter tier is extremely
+              generous. If you have any questions, our support team would be happy to help you.</p>
+          </div>
+          <form action="#" class="form subscription__form">
+            <input type="email" class="input form__input_access" placeholder="email@example.com">
+            <input type="submit" value="Get Started For Free" class="button form__button_access">
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- /.subscription main__subscription -->
   </div>
   <!-- /.main -->
-
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://www.frontendmentor.io/profile/Maria131621">Maria Lem</a>.
-    </p>
+  <footer class="footer">
+    <div class="container">
+      <div class="logo-wrap">
+        <img src="images/logo-footer.svg" alt="logo" class="logo footer__logo">
+      </div>
+      <div class="footer-wrap">
+        <div class="contacts footer__contacts">
+          <a href="tel:+1-543-123-4567" class="communication contacts__communication"><img src="images/icon-phone.svg" alt=""
+              class="icon-img">Phone: +1-543-123-4567</a>
+          <a href="mailto:example@fylo.com" class="communication contacts__communication"><img src="images/icon-email.svg" alt=""
+              class="icon-img">example@fylo.com</a>
+        </div>
+        <nav class="nav-1 footer__nav-1">
+          <a href="#" class="nav-1__item">About Us</a>
+          <a href="#" class="nav-1__item">Jobs</a>
+          <a href="#" class="nav-1__item">Press</a>
+          <a href="#" class="nav-1__item">Blog</a>
+        </nav>
+        <nav class="nav-2 footer__nav-2">
+          <a href="#" class="nav-2__item">Contact Us</a>
+          <a href="#" class="nav-2__item">Terms</a>
+          <a href="#" class="nav-2__item">Privacy</a>
+        </nav>
+        <div class="social footer__social">
+          <div class="icon-wrap">
+            <a href="#" class="link social__link">
+              <img src="images/facebook.png" alt="" class="social__icon">
+            </a>
+          </div>
+          <div class="icon-wrap">
+            <a href="#" class="link social__link">
+              <img src="images/twitter.png" alt="" class="social__icon">
+            </a>
+          </div>
+          <div class="icon-wrap">
+            <a href="#" class="link social__link">
+              <img src="images/instagram.png" alt="" class="social__icon">
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/Maria131621">Maria Lem</a>.
+      </p>
+    </div>
   </footer>
+  <!-- /.footer -->
 </body>
+
 </html>

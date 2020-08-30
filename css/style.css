@@ -20,6 +20,7 @@ body {
 }
 
 .input, .button {
+  font-family: "Raleway", sans-serif;
   font-size: 0.95rem;
   padding: 15px;
   border-radius: 3px;
@@ -52,6 +53,7 @@ body {
 .button {
   background-color: #3065f8;
   color: #ffffff;
+  font-weight: bold;
   border: none;
   cursor: pointer;
 }
@@ -268,5 +270,153 @@ body {
 .position {
   font-size: 0.55rem;
   margin: 0;
+}
+
+.main__subscription {
+  padding: 68px 0;
+}
+
+.subscription {
+  background-color: #585989;
+}
+
+.subscription__title {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.subscription__text {
+  color: #ffffff;
+  width: 87%;
+  margin-top: 12px;
+  font-size: 1.07rem;
+}
+
+.subscription__form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 40.5%;
+      flex-basis: 40.5%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__input_access {
+  width: 93%;
+  border: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.form__input_access::-webkit-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.form__input_access:-ms-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.form__input_access::-ms-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.form__input_access::placeholder {
+  font-size: 0.8rem;
+}
+
+.form__button_access {
+  width: 39%;
+  font-size: 0.85rem;
+}
+
+.footer {
+  background-color: #070439;
+  padding: 110px 0 50px 0;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+  width: 175px;
+  height: 50px;
+}
+
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer__nav-1 {
+  margin-left: 50px;
+}
+
+.footer__nav-2 {
+  margin-left: 25px;
+}
+
+.footer__social {
+  margin-right: 180px;
+}
+
+.contacts, .nav-1, .nav-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.icon-img {
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.communication, .nav-1__item, .nav-2__item {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.social__icon {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 12px;
+}
+
+.attribution {
+  text-align: center;
+  color: #c3c3ff;
+}
+
+.attribution a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */
