@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
@@ -34,8 +33,8 @@
   <div class="main">
     <section class="hero main__hero">
       <div class="container">
-        <div class="content-wrap">
-          <div class="wrap">
+        <div class="content-wrap hero__content-wrap">
+          <div class="wrap hero__wrap">
             <h1 class="title hero__title">All your files in one secure location, accessible anywhere.</h1>
             <p class="text hero__text">Fylo stores your most important files in one secure location. Access them
               wherever you need, share and collaborate with friends, family, and co-workers.</p>
@@ -44,7 +43,7 @@
               <input type="submit" value="Get Started" class="button form__button">
             </form>
           </div>
-          <img src="images/illustration-1.svg" alt="" class="image hero__image">
+          <div class="hero__img-wrap"><img src="images/illustration-1.svg" alt="" class="image hero__image"></div>
         </div>
       </div>
     </section>
@@ -52,14 +51,15 @@
     <section class="benefits main__benefits">
       <div class="container">
         <div class="content-wrap benefits__content-wrap">
-          <div class="benefits__wrap">
-            <h1 class="title benefits__title">Stay productive, wherever you are</h1>
+          <div class="wrap benefits__wrap">
+            <h1 class="title benefits__title">Stay productive, wherever you&nbsp;are</h1>
             <p class="text benefits__text">Never let location be an issue when accessing your files. Fylo has you
               covered for all of your file storage needs.</p>
             <p class="text benefits__text">Securely share files and folders with friends, family and colleagues for live
               collaboration. No email attachments required!</p>
-            <a href="#" class="details benefits__details">See how Fylo works<img src="images/icon-arrow.svg" alt=""
-                class="arrow"></a>
+            <div class="details benefits__details">
+              <a href="#" class="details__page">See how Fylo works<img src="images/icon-arrow.svg" alt="" class="arrow"></a>
+            </div>
             <div class="review benefits__review">
               <img src="images/icon-quotes.svg" alt="" class="review__quotes">
               <p class="testimonial review__testimonial">Fylo has improved our team productivity by an order of
@@ -81,7 +81,7 @@
     <section class="subscription main__subscription">
       <div class="container">
         <div class="content-wrap subscription__content-wrap">
-          <div class="wrap">
+          <div class="wrap subscription__wrap">
             <h2 class="title subscription__title">Get early access today</h2>
             <p class="text subscription__text">It only takes a minute to sign up and our free starter tier is extremely
               generous. If you have any questions, our support team would be happy to help you.</p>
@@ -97,7 +97,7 @@
   </div>
   <!-- /.main -->
   <footer class="footer">
-    <div class="container">
+    <div class="container footer__container">
       <div class="logo-wrap">
         <img src="images/logo-footer.svg" alt="logo" class="logo footer__logo">
       </div>

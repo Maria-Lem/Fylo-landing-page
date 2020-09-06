@@ -1,22 +1,21 @@
 .main
   &__hero
-    padding: 65px 0 275px 0
+    padding: 65px 0 300px 0
 .hero
   background: url('../images/bg-curve-desktop.svg') no-repeat bottom / contain
+  &__content-wrap
+    align-items: flex-start
   &__title
     margin-bottom: 0
+  &__img-wrap
+    flex-basis: 48%
   &__image
-    max-width: 50%
+    max-width: 640px
+    width: 98%
     margin-top: -2.5rem
   &__text
     font-size: 1.12rem
     max-width: 91%
-.content-wrap
-  display: flex
-  flex-wrap: wrap
-  justify-content: space-between
-.wrap
-  flex-basis: 49%
 .title
   font-family: $font
   line-height: 3.8rem
